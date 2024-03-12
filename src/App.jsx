@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import {ways} from './data'
 import WayToTeach from "./components/WayToTeach";
-import Button from "./components/Button";
+import Button from "./components/Button/Button";
 
 export default function App() {
   return (
@@ -22,8 +22,8 @@ export default function App() {
         </section>
         <section>
           <h3>Чем мы отличаемся от других</h3>
-          
-          <Button />
+
+          <Button>Доступность</Button>
         </section>
       </main>
     </div>
